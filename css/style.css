@@ -1,0 +1,236 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #fff;
+  width: 1600px;
+  margin: 0px;
+}
+
+.top-box {
+  background-color: #fff;
+  border: 1px solid #ececec;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.big-box {
+  text-align: center;
+  color: #ffffff;
+  background-color: #2f303a;
+  height: 600px;
+  gap: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.firs-header {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+}
+.secondary-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.order-button {
+  width: 200px;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0px;
+}
+.filter-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  border: none;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.subpages,
+.name-logo {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.subpages:visited,
+.name-logo:visited {
+  color: inherit;
+}
+
+.subpages:hover,
+.name-logo:hover,
+.subpages:focus,
+.name-logo:focus {
+  color: #2196f3;
+}
+
+.contact {
+  color: #757575;
+  text-decoration: none;
+}
+
+.big-wrap {
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  /*margin: 0px;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+}
+.products,
+.news,
+.members,
+.f-data,
+.subpages-list,
+.button-list,
+.engagement {
+  list-style: none;
+}
+.subpages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+}
+
+.news {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+.engagement {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.products {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+}
+.products p {
+  font-weight: 400;
+  text-align: left;
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+  width: 322px;
+}
+.products h3 {
+  width: 322px;
+  font-size: 18px;
+}
+.products li {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+.news {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.news p {
+  font-weight: 400;
+
+  color: #757575;
+  line-height: 24px;
+}
+.news li {
+  width: 270px;
+  height: 101px;
+  text-align: left;
+}
+.crew {
+  width: 1600px;
+  background-color: #f5f4fa;
+}
+.members {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.members li {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 368px;
+  text-align: center;
+}
+.members p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.home-location {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+footer {
+  height: 252px;
+}
+.f-data {
+  background-color: #2f303a;
+}
+.name-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
