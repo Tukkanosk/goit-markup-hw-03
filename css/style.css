@@ -49,18 +49,11 @@ body {
   color: #ffffff;
   font-size: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   padding: 0px;
 }
-.filter-button {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  border-radius: 4px;
-  background-color: #f5f4fa;
-  border: none;
-}
+
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
@@ -135,16 +128,30 @@ body {
   padding: 0px;
 }
 .button-list {
+  padding: 0px;
   display: flex;
   justify-content: center;
   gap: 8px;
 }
-
+.filter-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  border: none;
+}
 .products {
+  padding: 0px;
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.06em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
 }
 .products p {
   font-weight: 400;
