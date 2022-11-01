@@ -5,7 +5,6 @@ body {
   width: 1600px;
   margin: 0px;
 }
-
 .top-box {
   background-color: #fff;
   border: 1px solid #ececec;
@@ -20,17 +19,21 @@ body {
   color: #ffffff;
   background-color: #2f303a;
   height: 600px;
-  gap: 46px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 30px;
 }
 .firs-header {
+  margin: 0px;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 0.06em;
+}
+.section {
+  padding: 94px 0 94px 0;
 }
 .secondary-header {
   font-size: 36px;
@@ -38,6 +41,7 @@ body {
   line-height: 42px;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
 .order-button {
   width: 200px;
@@ -62,7 +66,6 @@ body {
   color: #ffffff;
   background-color: #2196f3;
 }
-
 .subpages,
 .name-logo {
   font-size: 14px;
@@ -75,19 +78,16 @@ body {
 .name-logo:visited {
   color: inherit;
 }
-
 .subpages:hover,
 .name-logo:hover,
 .subpages:focus,
 .name-logo:focus {
   color: #2196f3;
 }
-
 .contact {
-  color: #757575;
   text-decoration: none;
+  color: #757575;
 }
-
 .big-wrap {
   width: 1600px;
   display: flex;
@@ -96,12 +96,9 @@ body {
 }
 .container {
   width: 1200px;
-  /*margin: 0px;*/
+  margin: 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 47px;
 }
 .products,
 .news,
@@ -109,24 +106,33 @@ body {
 .f-data,
 .subpages-list,
 .button-list,
-.engagement {
+.engagement,
+.contact {
   list-style: none;
 }
 .subpages-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 46px;
 }
-
 .news {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
   display: flex;
   flex-wrap: nowrap;
   justify-content: left;
+  gap: 30px;
 }
 .engagement {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  margin: 0px;
+  padding: 0px;
 }
 .button-list {
   display: flex;
@@ -139,13 +145,6 @@ body {
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.06em;
-  text-align: left;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 30px;
 }
 .products p {
   font-weight: 400;
@@ -163,19 +162,8 @@ body {
   background-color: #fff;
   border: 1px solid #eee;
 }
-.news {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
 .news p {
   font-weight: 400;
-
   color: #757575;
   line-height: 24px;
 }
@@ -186,11 +174,12 @@ body {
 }
 .crew {
   width: 1600px;
-  background-color: #f5f4fa;
 }
 .members {
+  padding: 0px;
+  margin: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 30px;
 }
 .members li {
@@ -203,8 +192,6 @@ body {
   text-align: center;
 }
 .members p {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -222,10 +209,18 @@ body {
   color: #ffffff;
 }
 footer {
+  background-color: #2f303a;
   height: 252px;
+  height: 252px;
+  margin: 0px auto;
+  text-align: left;
+  display: flex;
 }
 .f-data {
-  background-color: #2f303a;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 .name-logo {
   font-family: "Raleway", sans-serif;
@@ -233,4 +228,11 @@ footer {
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
+}
+
+.name-logo-effect-f {
+  color: #2196f3;
+}
+.name-logo-effect-sec {
+  color: #fff;
 }
