@@ -7,9 +7,8 @@ body {
 }
 .top-box {
   background-color: #fff;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   height: 80px;
 }
