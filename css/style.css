@@ -9,8 +9,9 @@ body {
   background-color: #fff;
   border-bottom: 1px solid #ececec;
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 80px;
+  gap: 50px;
 }
 
 .big-box {
@@ -32,7 +33,7 @@ body {
   letter-spacing: 0.06em;
 }
 .section {
-  padding: 94px 0 94px 0;
+  padding: 94px 0;
 }
 .section-fix {
   padding: 0 0 94px 0;
@@ -83,6 +84,7 @@ body {
 .top-box-contact {
   display: flex;
   gap: 50px;
+  padding-left: 320px;
 }
 .contact {
   text-decoration: none;
@@ -131,11 +133,11 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 .button-list {
-  padding: 0px;
+  padding: 0;
   margin: 0 0 50px 0;
   display: flex;
   justify-content: center;
@@ -152,11 +154,11 @@ body {
   text-align: center;
 }
 .filter-button p {
-  margin: 6px 22px 6px 22px;
-  padding: 0px;
+  margin: 6px 22px;
+  padding: 0;
 }
 .products {
-  padding: 0px;
+  padding: 0;
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
@@ -198,8 +200,8 @@ body {
   background: #f5f4fa;
 }
 .members {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
   gap: 30px;
