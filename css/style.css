@@ -182,7 +182,7 @@ body {
 }
 .products li {
   background-color: #fff;
-  border: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 .news p {
   font-weight: 400;
